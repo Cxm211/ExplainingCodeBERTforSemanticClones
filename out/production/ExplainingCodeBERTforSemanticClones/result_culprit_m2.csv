@@ -1,0 +1,121 @@
+Clone921.py,Has culprit,1,1,0_,"def readlines(self) :
+"
+Clone746.py,Has culprit,7,858,0_1_2_3_5_6_7_,"def __init__(self, parent) :
+","	pre = wx.PreDialog()
+","	pre.SetExtraStyle(wx.DIALOG_EX_CONTEXTHELP)
+","	pre.Create(parent, - 1, ""sample dialog"", size = (200, 100), style = wx.CAPTION | wx.RESIZE_BORDER)
+","	self.parent = parent
+","	self.Bind(wx.EVT_KEY_DOWN, self.parent._on_key_down)
+","	self.Bind(wx.EVT_KEY_UP, self.parent._on_key_up)
+"
+Clone814.py,Has culprit,2,10,0_4_,"def get_icon_path(mimetype, size = 32) :
+","	if info :
+"
+Clone564.py,Has culprit,1,1,0_,"def brute_force() :
+"
+Clone544.py,Has culprit,1,1,0_,"def touch(fname) :
+"
+Clone737.py,Has culprit,1,3,2_,"		username = user_or_username.name
+"
+Clone685.py,Has culprit,3,46,0_1_2_,"def get_info(session, title, url) :
+","	response = requests.get(url)
+","	soup = BeautifulSoup(response.content, ""lxml"")
+"
+Clone460.py,Has culprit,4,44,0_1_2_5_,"def __call__(self, file) :
+","	hash = self.algorithm()
+","	with open(file, 'rb') as f :
+","	return hash.hexdigest()
+"
+Clone910.py,Has culprit,4,130,0_1_2_3_,"def __init__(self) :
+","	super(Dialog, self).__init__()
+","	layout = QtGui.QVBoxLayout()
+","	self.setLayout(layout)
+"
+Clone850.py,No culprit,0,255,
+Clone945.py,No culprit,0,255,
+Clone541.py,Has culprit,1,2,1_,"	flags = os.O_CREAT | os.O_APPEND
+"
+Clone656.py,Has culprit,0,0,
+Clone56.py,Has culprit,3,53,0_2_3_,"def save(self, * args, ** kwargs) :
+","		image = Img.open(StringIO.StringIO(self.photo.read()))
+","		image.thumbnail((200, 200), Img.ANTIALIAS)
+"
+Clone354.py,Has culprit,1,6,5_,"	self.text = tk.Text(self, height = 10, width = 40)
+"
+Clone81.py,No culprit,0,31,
+Clone85.py,No culprit,0,63,
+Clone759.py,Has culprit,0,0,
+Clone157.py,Has culprit,1,2,1_,"	parent_item = self.model.itemFromIndex(index)
+"
+Clone163.py,No culprit,0,31,
+Clone769.py,Has culprit,4,68,0_1_3_4_,"def search(request) :
+","	if request.method == ""GET"" :
+","		search_filter = Q()
+","		for term in search_terms.split(',') :
+"
+Clone57.py,Has culprit,1,6,5_,"	for line in var :
+"
+Clone205.py,No culprit,0,127,
+Clone293.py,Has culprit,1,1,0_,"def get_file_list(directory = os.getcwd()) :
+"
+Clone283.py,No culprit,0,511,
+Clone80.py,No culprit,0,31,
+Clone479.py,Has culprit,6,120,0_1_2_3_4_5_,"def __init__(self, parent, * args, ** kwargs) :
+","	super(MenuBar, self).__init__(* args, ** kwargs)
+","	file_menu = wx.Menu()
+","	self.Append(file_menu, '&File')
+","	quit_menu_item = wx.MenuItem(file_menu, wx.ID_EXIT)
+","	parent.Bind(wx.EVT_MENU, parent.on_quit_click, id = wx.ID_EXIT)
+"
+Clone164.py,Has culprit,1,1,0_,"def after_request(response) :
+"
+Clone1.py,No culprit,0,1023,
+Clone449.py,Has culprit,2,28,2_3_,"		path = os.path.abspath(path)
+","	elif os.path.islink(path) and os.path.lexists(os.readlink(path)) :
+"
+Clone458.py,Has culprit,4,50,0_2_4_5_,"def __call__(self, file) :
+","	with open(file, 'rb') as f :
+","			hash.update(chunk)
+","	return hash.hexdigest()
+"
+Clone316.py,Has culprit,1,4,3_,"		d [letter] += 1
+"
+Clone207.py,Has culprit,4,349,2_6_8_9_,"		mitmproxy.ctx.log(flow.request.path)
+","		flow.request.scheme = 'http'
+","			flow.request.path = flow.request.path.replace(method, ""getxml"")
+","		flow.request.headers [""Host""] = ""newsite.mydomain.com""
+"
+Clone82.py,No culprit,0,255,
+Clone908.py,No culprit,0,1023,
+Clone538.py,No culprit,0,15,
+Clone774.py,Has culprit,6,704,0_1_5_6_7_9_,"def __init__(self) :
+","	wx.Frame.__init__(self, None, - 1, ""Test"", size = (500, 270))
+","	panel.Bind(wx.EVT_BUTTON, self.startTimer, id = self.buttonStart.GetId())
+","	panel.Bind(wx.EVT_BUTTON, self.changeVar, id = self.buttonChange.GetId())
+","	self.value = 1
+","	self.Bind(wx.EVT_TIMER, self.printer, self.timer)
+"
+Clone378.py,No culprit,0,511,
+Clone890.py,No culprit,0,63,
+Clone426.py,Has culprit,0,0,
+Clone477.py,Has culprit,1,6,5_,"	parent.Bind(wx.EVT_MENU, parent.on_quit_click, id = wx.ID_EXIT)
+"
+Clone744.py,Has culprit,1,7,6_,"	self.mainSizer.Fit(self)
+"
+Clone891.py,Has culprit,1,3,2_,"		with open(list_or_filename, ""r"") as f :
+"
+Clone543.py,Has culprit,1,2,1_,"	flags = os.O_CREAT | os.O_APPEND
+"
+Clone476.py,Has culprit,3,39,0_1_4_,"def __init__(self, parent, * args, ** kwargs) :
+","	super(MainPanel, self).__init__(parent, * args, ** kwargs)
+","	cmd_quit = wx.Button(self, id = wx.ID_EXIT)
+"
+Clone745.py,Has culprit,4,205,0_2_3_5_,"def __init__(self, parent) :
+","	pre.SetExtraStyle(wx.DIALOG_EX_CONTEXTHELP)
+","	pre.Create(parent, - 1, ""sample dialog"", size = (200, 100), style = wx.CAPTION | wx.RESIZE_BORDER)
+","	self.parent = parent
+"
+Clone846.py,Has culprit,1,1,0_,"def reader(rfd) :
+"
+Clone462.py,No culprit,0,127,
+Clone248.py,No culprit,0,127,

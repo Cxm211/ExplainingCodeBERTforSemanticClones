@@ -1,0 +1,122 @@
+Clone921.py,Has culprit,1,3,2_,"	for line in iter(self.readline, '') :
+",,,,,
+Clone746.py,No culprit,0,127,,,,,,,
+Clone814.py,Has culprit,2,7,0_3_,"def get_icon_path(extension, size = 32) :
+","		icon = gio.content_type_get_icon(type_)
+",,,,
+Clone564.py,Has culprit,1,1,0_,"def brute_force(length, check_callback, guess = """") :
+",,,,,
+Clone544.py,Has culprit,1,2,1_,"	flags = os.O_CREAT | os.O_APPEND
+",,,,,
+Clone737.py,No culprit,0,31,,,,,,,
+Clone685.py,No culprit,0,1023,,,,,,,
+Clone460.py,No culprit,0,127,,,,,,,
+Clone910.py,No culprit,0,1023,,,,,,,
+Clone850.py,Has culprit,4,94,2_3_4_5_,"	PygameHelper.__init__(self, size = (self.w, self.h), fill = ((255, 255, 255)))
+","	self.img = pygame.image.load(""colors.png"")
+","	self.screen.blit(self.img, (0, 0))
+","	self.drawcolor = (0, 0, 0)
+",,
+Clone945.py,No culprit,0,63,,,,,,,
+Clone541.py,Has culprit,2,6,0_1_,"def touch(fname) :
+","	if os.path.exists(fname) :
+",,,,
+Clone656.py,No culprit,0,3,,,,,,,
+Clone56.py,No culprit,0,255,,,,,,,
+Clone354.py,Has culprit,3,122,2_3_6_,"	self.entry = tkinter.Entry(self)
+","	self.text = tkinter.Text(self, height = 15, width = 50,
+","	self.text.grid(row = 1, column = 0, sticky = NSEW)
+",,,
+Clone81.py,No culprit,0,31,,,,,,,
+Clone85.py,No culprit,0,1023,,,,,,,
+Clone157.py,Has culprit,1,1,0_,"def update_model(self, index) :
+",,,,,
+Clone163.py,Has culprit,1,7,6_,"		response.headers [""content-length""] = len(response.response [0])
+",,,,,
+Clone769.py,No culprit,0,127,,,,,,,
+Clone57.py,Has culprit,2,11,0_4_,"def createfile() :
+","	""""""
+",,,,
+Clone205.py,No culprit,0,255,,,,,,,
+Clone293.py,Has culprit,3,47,0_2_7_,"def get_file_list(directory = '.') :
+","	for i in os.listdir(directory) :
+","	return files
+",,,
+Clone283.py,No culprit,0,1023,,,,,,,
+Clone80.py,No culprit,0,63,,,,,,,
+Clone479.py,Has culprit,3,39,0_1_4_,"def __init__(self, parent, * args, ** kwargs) :
+","	super(MainPanel, self).__init__(parent, * args, ** kwargs)
+","	cmd_quit = wx.Button(self, id = wx.ID_EXIT)
+",,,
+Clone164.py,Has culprit,1,3,2_,"	if app.debug :
+",,,,,
+Clone1.py,Has culprit,5,258,0_1_2_3_6_,"def download_file(service, file_id) :
+","	request = service.files().get_media(fileId = file_id)
+","	fh = io.BytesIO()
+","	downloader = MediaIoBaseDownload(fh, request)
+","		status, done = downloader.next_chunk()
+",
+Clone449.py,Has culprit,2,10,0_1_,"def find_mount_point(path) :
+","	path = os.path.abspath(path)
+",,,,
+Clone458.py,No culprit,0,63,,,,,,,
+Clone316.py,Has culprit,1,3,2_,"	with open(p) as f :
+",,,,,
+Clone207.py,No culprit,0,63,,,,,,,
+Clone82.py,No culprit,0,31,,,,,,,
+Clone908.py,Has culprit,2,15,0_7_,"def __init__(self) :
+","	splitter.addWidget(QtGui.QLabel(""Test""))
+",,,,
+Clone538.py,Has culprit,2,31,3_4_,"		self.i = self.enter_context(open(self.in_file_name, 'r'))
+","		self.o = self.enter_context(open(self.out_file_name, 'w'))
+",,,,
+Clone199.py,Has culprit,0,0,,,,,,,
+Clone774.py,Has culprit,4,73,0_1_5_6_,"def __init__(self) :
+","	wx.Frame.__init__(self, None, - 1, ""Test"", size = (500, 270))
+","	panel.Bind(wx.EVT_BUTTON, self.startThread, id = self.buttonStart.GetId())
+","	panel.Bind(wx.EVT_BUTTON, self.changeVar, id = self.buttonChange.GetId())
+",,
+Clone378.py,No culprit,0,31,,,,,,,
+Clone467.py,Has culprit,1,1,0_,"def insert_sequence(dna1, dna2, number) :
+",,,,,
+Clone890.py,Has culprit,1,2,1_,"	if isinstance(arg, file) :
+",,,,,
+Clone426.py,Has culprit,2,8,0_1_,"def on_success(self, data) :
+","	print data ['text']
+",,,,
+Clone477.py,Has culprit,3,66,1_3_7_,"	wx.Frame.__init__(self, * args, ** kwargs)
+","	self.button = wx.Button(self.panel, label = ""Test"")
+","	self.Show()
+",,,
+Clone744.py,Has culprit,5,637,5_6_7_8_9_,"	self.canvas = mplCanvas(self, - 1, self.figure)
+","	self.figure.canvas.mpl_connect('pick_event', self.onClick)
+","	self.canvas.Bind(wx.EVT_KEY_DOWN, self._on_key_down)
+","	self.canvas.Bind(wx.EVT_KEY_UP, self._on_key_up)
+","	self.states = {""cmd"" : False, ""ctrl"" : False, ""shift"" : False}
+",
+Clone466.py,Has culprit,1,1,0_,"def insert_sequence(dna1, dna2, number) :
+",,,,,
+Clone437.py,Has culprit,1,1,0_,"def __init__(self) :
+",,,,,
+Clone891.py,Has culprit,0,0,,,,,,,
+Clone543.py,Has culprit,3,31,0_1_4_,"def touch(file_name) :
+","	if not os.path.exists(file_name) :
+","		os.utime(file_name, None)
+",,,
+Clone476.py,Has culprit,6,222,0_1_2_3_5_6_,"def __init__(self, * args, ** kwargs) :
+","	wx.Frame.__init__(self, * args, ** kwargs)
+","	self.panel = wx.Panel(self)
+","	self.button = wx.Button(self.panel, label = ""Test"")
+","	self.sizer.Add(self.button)
+","	self.panel.SetSizerAndFit(self.sizer)
+"
+Clone745.py,No culprit,0,1023,,,,,,,
+Clone846.py,Has culprit,1,1,0_,"def reader(fd) :
+",,,,,
+Clone433.py,Has culprit,0,0,,,,,,,
+Clone462.py,Has culprit,4,50,0_2_4_5_,"def __call__(self, file) :
+","	with open(file, 'rb') as f :
+","			hash.update(chunk)
+","	return hash.hexdigest()
+",,
+Clone248.py,No culprit,0,511,,,,,,,

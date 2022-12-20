@@ -1,0 +1,675 @@
+Clone9.py,No wheat,0,127,
+Clone158.py,Has necessary and sufficient wheat,5,62,1_2_3_4_5_,"	d = datetime.strptime('%s %s 1' % (week - 1, year), '%W %Y %w')
+","	for i in range(0, 7) :
+","		d2 = d + timedelta(days = i)
+","		if d2.day == day :
+","			return d2.month
+"
+Clone389.py,No wheat,0,31,
+Clone109.py,No wheat,0,127,
+Clone574.py,No wheat,0,63,
+Clone525.py,No wheat,0,31,
+Clone465.py,No wheat,0,255,
+Clone707.py,Has necessary and sufficient wheat,1,1,0_,"def readParag(filename) :
+"
+Clone804.py,Has necessary and sufficient wheat,7,253,0_2_3_4_5_6_7_,"def backtrack(res, temp, nums, start) :
+","	for i in temp :
+","		res [- 1].append(i);
+","	for i in range(start, len(nums)) :
+","		temp.append(nums [i])
+","		backtrack(res, temp, nums, i + 1)
+","		temp.pop()
+"
+Clone587.py,No wheat,0,127,
+Clone756.py,No wheat,0,511,
+Clone451.py,No wheat,0,127,
+Clone680.py,No wheat,0,255,
+Clone983.py,Has necessary and sufficient wheat,3,29,0_1_2_,"def fileCount(path, extension) :
+","	count = 0
+","	for root, dirs, files in os.walk(path) :
+"
+Clone791.py,No wheat,0,31,
+Clone540.py,Has necessary and sufficient wheat,3,29,0_1_2_,"def touch(file_name) :
+","	if not os.path.exists(file_name) :
+","		return
+"
+Clone622.py,No wheat,0,63,
+Clone820.py,No wheat,0,511,
+Clone871.py,No wheat,0,127,
+Clone781.py,No wheat,0,511,
+Clone410.py,Has necessary and sufficient wheat,4,27,0_1_2_4_,"def ignore_until(the_list, match) :
+","	try :
+","		return [the_list [the_list.index(object) :] for object in l if object == match] [0]
+","		return []
+"
+Clone690.py,No wheat,0,31,
+Clone606.py,No wheat,0,63,
+Clone486.py,No wheat,0,127,
+Clone424.py,No wheat,0,31,
+Clone148.py,No wheat,0,255,
+Clone139.py,No wheat,0,31,
+Clone795.py,Has necessary and sufficient wheat,7,472,0_1_2_3_5_6_7_,"def encrypt(key, plaintext) :
+","	key = key.encode('ascii')
+","	plaintext = plaintext.encode('utf-8')
+","	padded_key = key.ljust(KEY_SIZE, b'\0')
+","	eg = pprp.rjindael_encrypt_gen(padded_key, sg, block_size = BLOCK_SIZE)
+","	ciphertext = pprp.encrypt_sink(eg)
+","	encoded = base64.b64encode(ciphertext)
+"
+Clone896.py,No wheat,0,63,
+Clone515.py,Has necessary and sufficient wheat,1,2,1_,"	sql = ""select some rows""
+"
+Clone834.py,Has necessary and sufficient wheat,4,30,1_2_3_4_,"	for num in xrange(step, 999999999, step) :
+","		if all(num % n == 0 for n in check_list) :
+","			return num
+","	return None
+"
+Clone677.py,No wheat,0,31,
+Clone974.py,No wheat,0,31,
+Clone865.py,No wheat,0,255,
+Clone521.py,No wheat,0,255,
+Clone461.py,Has necessary and sufficient wheat,2,19,2_3_,"		print (""Entering"", f.__name__)
+","		print (""p1="", self.p1)
+"
+Clone583.py,No wheat,0,255,
+Clone851.py,No wheat,0,1023,
+Clone752.py,No wheat,0,1023,
+Clone800.py,No wheat,0,63,
+Clone492.py,Has necessary and sufficient wheat,4,98,3_4_5_6_,"		lines_left = times
+","	lines_left = lines_left - 1
+","	if (lines_left > 0) :
+","		repeat(string, times, lines_left)
+"
+Clone713.py,No wheat,0,255,
+Clone653.py,No wheat,0,63,
+Clone841.py,No wheat,0,31,
+Clone593.py,No wheat,0,63,
+Clone901.py,No wheat,0,255,
+Clone420.py,No wheat,0,255,
+Clone19.py,No wheat,0,127,
+Clone875.py,No wheat,0,127,
+Clone667.py,Has necessary and sufficient wheat,3,35,1_3_4_,"	a = [[int(i == 0) for j in range(n)] for i in range(n)]
+","		for j in range(1, 1 + i) :
+","			a [j] [i] = a [j] [i - 1] + a [j - 1] [i - 1]
+"
+Clone964.py,No wheat,0,31,
+Clone997.py,No wheat,0,63,
+Clone505.py,Has necessary and sufficient wheat,3,35,0_2_4_,"def execute(command) :
+","	lines_iterator = iter(popen.stdout.readline, b"""")
+","		for line in lines_iterator :
+"
+Clone445.py,Has necessary and sufficient wheat,3,46,1_2_5_,"	while true :
+","		conn = copy(connections [0])
+","			if conn ! = connections [0] :
+"
+Clone414.py,No wheat,0,31,
+Clone169.py,No wheat,0,1023,
+Clone138.py,No wheat,0,63,
+Clone405.py,No wheat,0,511,
+Clone454.py,No wheat,0,63,
+Clone986.py,No wheat,0,31,
+Clone767.py,No wheat,0,63,
+Clone864.py,Has necessary and sufficient wheat,6,449,1_2_4_5_6_8_,"	my_dict = {}
+","	for word in my_string.split() :
+","		if word_length in my_dict :
+","			if word not in my_dict [word_length] :
+","				my_dict [word_length].append(word)
+","			my_dict [word_length] = [word]
+"
+Clone520.py,No wheat,0,127,
+Clone571.py,No wheat,0,255,
+Clone582.py,No wheat,0,31,
+Clone493.py,No wheat,0,511,
+Clone712.py,No wheat,0,1023,
+Clone483.py,No wheat,0,511,
+Clone743.py,No wheat,0,127,
+Clone603.py,No wheat,0,63,
+Clone421.py,No wheat,0,127,
+Clone470.py,No wheat,0,63,
+Clone934.py,Has necessary and sufficient wheat,7,472,0_1_2_3_3_6_7_,"def unique(x) :
+","	output = []
+","	y = {}
+","	for item in x :
+","	for item in x :
+","		if item in y :
+","			output.append(item)
+"
+Clone965.py,No wheat,0,31,
+Clone825.py,No wheat,0,255,
+Clone996.py,No wheat,0,63,
+Clone555.py,No wheat,0,31,
+Clone415.py,No wheat,0,255,
+Clone575.py,No wheat,0,127,
+Clone524.py,No wheat,0,511,
+Clone464.py,No wheat,0,255,
+Clone706.py,No wheat,0,127,
+Clone586.py,No wheat,0,127,
+Clone854.py,No wheat,0,31,
+Clone450.py,No wheat,0,63,
+Clone982.py,Has necessary and sufficient wheat,3,29,0_1_2_,"def fileCount(path, extension) :
+","	count = 0
+","	for root, dirs, files in os.walk(path) :
+"
+Clone790.py,No wheat,0,15,
+Clone763.py,No wheat,0,63,
+Clone920.py,No wheat,0,63,
+Clone831.py,No wheat,0,31,
+Clone732.py,No wheat,0,31,
+Clone672.py,No wheat,0,127,
+Clone971.py,No wheat,0,31,
+Clone821.py,No wheat,0,127,
+Clone930.py,No wheat,0,255,
+Clone870.py,No wheat,0,1023,
+Clone773.py,No wheat,0,127,
+Clone691.py,No wheat,0,31,
+Clone844.py,No wheat,0,127,
+Clone425.py,No wheat,0,31,
+Clone565.py,Has necessary and sufficient wheat,1,1,0_,"def brute_force(string, length, goal) :
+"
+Clone91.py,Has necessary and sufficient wheat,2,11,0_5_,"def length_of_string(mystring) :
+","		return len(mystring)
+"
+Clone679.py,No wheat,0,1023,
+Clone344.py,Has necessary and sufficient wheat,1,1,0_,"def get_or_create(session, model, defaults = None, ** kwargs) :
+"
+Clone204.py,No wheat,0,127,
+Clone166.py,Has necessary and sufficient wheat,3,13,0_2_3_,"def addToInventory(inventory, addedItems) :
+","	for item in addedItems :
+","		stuff [item] = stuff.get(item, 0) + 1
+"
+Clone230.py,Has necessary and sufficient wheat,3,36,1_3_5_,"	splitName = name.split(' ')
+","	for i in range(len(splitName)) :
+","	yield ('Surname: %s' % surname)
+"
+Clone370.py,Has necessary and sufficient wheat,7,476,0_1_2_4_5_6_7_,"def processData(data, thread_safe) :
+","	if thread_safe :
+","		mutex.acquire()
+","		thread_id = threading.get_ident()
+","		print ('\nProcessing data:', data, ""ThreadId:"", thread_id)
+","	finally :
+","		if thread_safe :
+"
+Clone152.py,No wheat,0,31,
+Clone383.py,No wheat,0,255,
+Clone292.py,Has necessary and sufficient wheat,7,474,0_1_2_3_5_7_8_,"def eval_expr(cls, expr, subs = None) :
+","	if subs is None :
+","		frame = sys._getframe()
+","		subs = {}
+","		if frame.f_back :
+","	expr_tree = ast.parse(expr, mode = 'eval').body
+","	return cls.eval(expr_tree, subs)
+"
+Clone103.py,No wheat,0,127,
+Clone393.py,No wheat,0,255,
+Clone360.py,No wheat,0,255,
+Clone331.py,No wheat,0,31,
+Clone271.py,No wheat,0,63,
+Clone305.py,No wheat,0,127,
+Clone214.py,No wheat,0,63,
+Clone888.py,No wheat,0,31,
+Clone669.py,No wheat,0,511,
+Clone52.py,No wheat,0,127,
+Clone37.py,No wheat,0,1023,
+Clone66.py,No wheat,0,31,
+Clone709.py,No wheat,0,63,
+Clone95.py,Has necessary and sufficient wheat,1,1,0_,"def run(self) :
+"
+Clone374.py,Has necessary and sufficient wheat,1,2,1_,"	import subprocess, platform
+"
+Clone133.py,No wheat,0,63,
+Clone123.py,No wheat,0,127,
+Clone172.py,Has necessary and sufficient wheat,1,5,4_,"		if any(word in line for line in f) :
+"
+Clone350.py,No wheat,0,255,
+Clone241.py,No wheat,0,31,
+Clone146.py,No wheat,0,31,
+Clone286.py,Has necessary and sufficient wheat,4,42,0_1_2_3_,"def pattern_match(sequence, patterns) :
+","	seq = set(sequence)
+","	u = set()
+","	for pattern in patterns :
+"
+Clone117.py,No wheat,0,1023,
+Clone335.py,Has necessary and sufficient wheat,6,391,0_1_2_3_7_8_,"def show_progress(count, block_size, total_size) :
+","	if pbar is None :
+","		pbar = ProgressBar(maxval = total_size)
+","	downloaded += block_size
+","		pbar = None
+","		downloaded = 0
+"
+Clone364.py,No wheat,0,63,
+Clone659.py,No wheat,0,1023,
+Clone76.py,No wheat,0,255,
+Clone748.py,Has necessary and sufficient wheat,5,103,0_1_2_4_6_,"def listFunc(List) :
+","	if len(List) == 0 : return ''
+","	if len(List) == 1 : return List [0]
+","	for item in List [1 : - 1] :
+","	return value + ', and ' + List [- 1]
+"
+Clone53.py,No wheat,0,127,
+Clone67.py,No wheat,0,31,
+Clone708.py,No wheat,0,63,
+Clone94.py,Has necessary and sufficient wheat,1,4,3_,"	s = sum(array.array(""H"", pkt))
+"
+Clone235.py,No wheat,0,31,
+Clone106.py,Has necessary and sufficient wheat,4,26,0_1_2_3_,"def is_less(a, b) :
+","	for i in range(len(a) - 1, - 1, - 1) :
+","		if a [i] < b [i] : return True
+","		elif a [i] > b [i] : return False
+"
+Clone6.py,No wheat,0,31,
+Clone132.py,No wheat,0,63,
+Clone351.py,No wheat,0,127,
+Clone396.py,No wheat,0,31,
+Clone147.py,No wheat,0,127,
+Clone287.py,No wheat,0,255,
+Clone749.py,Has necessary and sufficient wheat,4,29,0_2_3_4_,"def has_add_permission(self, request) :
+","	if count == 0 :
+","		return True
+","	return False
+"
+Clone738.py,Has necessary and sufficient wheat,2,14,2_4_,"		remote.remove(user_or_username.name)
+","		remote.remove(user_or_username)
+"
+Clone678.py,No wheat,0,255,
+Clone194.py,No wheat,0,127,
+Clone371.py,Has necessary and sufficient wheat,1,5,4_,"			os.makedirs(folder)
+"
+Clone382.py,Has necessary and sufficient wheat,7,247,0_1_2_3_4_5_6_,"def merge_dicts(d1, d2) :
+","	merged = d1.copy()
+","	for k, v in d2.iteritems() :
+","		if k in merged :
+","			raise ValueError
+","		else :
+","			merged [k] = v
+"
+Clone102.py,No wheat,0,127,
+Clone392.py,Has necessary and sufficient wheat,6,224,0_1_2_3_6_7_,"def permutations(string) :
+","	permutation_list = []
+","	if len(string) == 1 :
+","		return [string]
+","			[permutation_list.append(char + a) for a in permutations(string.replace(char, """"))]
+","	return permutation_list
+"
+Clone361.py,No wheat,0,63,
+Clone270.py,No wheat,0,63,
+Clone889.py,Has necessary and sufficient wheat,3,29,0_1_2_,"def f() :
+","	ldict = {}
+","	for key, val in measurements.items() :
+"
+Clone639.py,Has necessary and sufficient wheat,5,60,0_1_3_4_5_,"def merge_sort(arr, p, r) :
+","	if p < r :
+","		merge_sort(arr, p, q)
+","		merge_sort(arr, q + 1, r)
+","		merge(arr, p, q, r)
+"
+Clone16.py,No wheat,0,127,
+Clone779.py,No wheat,0,15,
+Clone578.py,No wheat,0,127,
+Clone808.py,No wheat,0,63,
+Clone919.py,No wheat,0,511,
+Clone294.py,No wheat,0,255,
+Clone131.py,Has necessary and sufficient wheat,8,984,0_1_2_4_5_6_7_9_,"def find_nth(haystack, needle, n = 1) :
+","	if (hasattr(needle, 'finditer')) :
+","		matches = needle.finditer(haystack)
+","		matches = re.finditer(re.escape(needle), haystack)
+","	start_here = itertools.dropwhile(lambda x : x [0] < n, enumerate(matches, 1))
+","	try :
+","		return next(start_here) [1].start()
+","		return - 1
+"
+Clone160.py,Has necessary and sufficient wheat,1,4,3_,"		for i in range(0, int(len(line) - k + 1)) :
+"
+Clone202.py,Has necessary and sufficient wheat,9,1013,0_1_2_3_4_5_6_7_8_,"def minimum(lst) :
+","	if len(lst) == 1 :
+","		return lst [0]
+","	first = lst [0]
+","	rest = lst [1 :]
+","	min_of_rest = minimum(rest)
+","	if first < min_of_rest :
+","		return first
+","	else :
+"
+Clone313.py,No wheat,0,255,
+Clone212.py,No wheat,0,1023,
+Clone337.py,No wheat,0,255,
+Clone284.py,Has necessary and sufficient wheat,5,109,0_2_3_4_5_,"def div3() :
+","	num = range(1, 10)
+","	if (num % 3 == 0) :
+","		for _ in xrange(20) :
+","			divlist.append(random.randint(0, 10))
+"
+Clone818.py,Has necessary and sufficient wheat,1,2,1_,"	from os.path import abspath, dirname
+"
+Clone958.py,Has necessary and sufficient wheat,3,58,0_2_8_,"def md5sum(filename) :
+","		d = hashlib.md5()
+","		return d.hexdigest()
+"
+Clone74.py,No wheat,0,31,
+Clone87.py,No wheat,0,31,
+Clone568.py,No wheat,0,255,
+Clone11.py,No wheat,0,63,
+Clone93.py,Has necessary and sufficient wheat,1,2,1_,"	if len(pkt) % 2 == 1 :
+"
+Clone799.py,No wheat,0,511,
+Clone408.py,Has necessary and sufficient wheat,3,20,0_2_4_,"def ignore_until(the_list, match) :
+","		return my_list [the_list.index(match) :]
+","		return []
+"
+Clone459.py,No wheat,0,127,
+Clone519.py,No wheat,0,255,
+Clone838.py,No wheat,0,127,
+Clone54.py,No wheat,0,255,
+Clone869.py,No wheat,0,1023,
+Clone135.py,No wheat,0,63,
+Clone317.py,No wheat,0,63,
+Clone206.py,Has necessary and sufficient wheat,5,484,0_3_7_8_4_,"def greet(lines, cheers) :
+","	while i < cheers :
+","	while i < lines :
+","		print ("" "" * (i * 3) + line_str)
+","		i += 1
+"
+Clone197.py,No wheat,0,15,
+Clone290.py,No wheat,0,31,
+Clone101.py,No wheat,0,63,
+Clone381.py,Has necessary and sufficient wheat,5,182,0_1_5_6_7_,"def merge_dicts(d1, d2) :
+","	try :
+","	if any(d1 [shared] ! = d2 [shared] for shared in intersection) :
+","		return {}
+","	return dict(d1, ** d2)
+"
+Clone372.py,Has necessary and sufficient wheat,1,5,4_,"			os.makedirs(folder)
+"
+Clone362.py,No wheat,0,31,
+Clone391.py,Has necessary and sufficient wheat,6,233,0_1_4_5_6_7_,"def permutations(string) :
+","	if len(string) == 1 :
+","	for c in string :
+","		for perm in permutations(string.replace(c, '', 1)) :
+","			revursive_perms.append(c + perm)
+","	return set(revursive_perms)
+"
+Clone216.py,No wheat,0,255,
+Clone307.py,No wheat,0,127,
+Clone15.py,No wheat,0,127,
+Clone939.py,No wheat,0,255,
+Clone558.py,No wheat,0,63,
+Clone789.py,No wheat,0,15,
+Clone83.py,No wheat,0,1023,
+Clone409.py,Has necessary and sufficient wheat,3,20,0_2_4_,"def ignore_until(yourlist, match) :
+","		return yourlist [yourlist.index(match) :]
+","		return []
+"
+Clone798.py,Has necessary and sufficient wheat,5,100,0_1_2_3_5_,"def count(l) :
+","	total = 0
+","	result = []
+","	for val in l :
+","		result.append(total)
+"
+Clone518.py,No wheat,0,255,
+Clone839.py,No wheat,0,511,
+Clone979.py,No wheat,0,1023,
+Clone868.py,No wheat,0,31,
+Clone165.py,No wheat,0,63,
+Clone134.py,No wheat,0,63,
+Clone291.py,Has necessary and sufficient wheat,4,117,0_2_6_7_,"def formatTime(self, record, datefmt = None) :
+","	if datefmt :
+","		s = ""%s,%03d"" % (t, record.msecs)
+","	return s
+"
+Clone380.py,No wheat,0,255,
+Clone233.py,No wheat,0,1023,
+Clone363.py,No wheat,0,255,
+Clone141.py,No wheat,0,31,
+Clone217.py,No wheat,0,63,
+Clone306.py,Has necessary and sufficient wheat,5,111,0_2_3_5_6_,"def fib(n) :
+","	call_count = call_count + 1
+","	if n < = 1 :
+","	else :
+","		return fib(n - 1) + fib(n - 2)
+"
+Clone938.py,No wheat,0,511,
+Clone14.py,No wheat,0,31,
+Clone829.py,No wheat,0,31,
+Clone508.py,No wheat,0,255,
+Clone448.py,Has necessary and sufficient wheat,1,7,6_,"	instance.save()
+"
+Clone559.py,No wheat,0,255,
+Clone788.py,No wheat,0,511,
+Clone20.py,No wheat,0,127,
+Clone51.py,No wheat,0,63,
+Clone579.py,No wheat,0,31,
+Clone96.py,No wheat,0,1023,
+Clone130.py,No wheat,0,63,
+Clone161.py,Has necessary and sufficient wheat,3,22,1_2_3_,"	for k, v in self.settings.items() :
+","		print ('{}: {}'.format(k, v))
+","	yield {
+"
+Clone203.py,No wheat,0,127,
+Clone242.py,No wheat,0,255,
+Clone213.py,Has necessary and sufficient wheat,4,45,0_1_3_4_,"def checkio(data) :
+","	lis = []
+","		if data.count(i) > 1 :
+","			lis.append(i)
+"
+Clone336.py,No wheat,0,255,
+Clone819.py,Has necessary and sufficient wheat,2,24,3_5_,"	""/fixtures/"")
+","	assert os.access(os.path.join(self.fixture_dir,
+"
+Clone959.py,Has necessary and sufficient wheat,3,58,0_2_8_,"def md5sum(filename) :
+","		d = hashlib.md5()
+","		return d.hexdigest()
+"
+Clone86.py,Has necessary and sufficient wheat,8,503,0_1_2_3_4_5_6_8_,"def function(argument) :
+","	max_arg = max(argument)
+","	argument.remove(max_arg)
+","	s = 0
+","	for i in argument :
+","		s += i
+","		if s == max_arg :
+","	return ""false""
+"
+Clone569.py,No wheat,0,63,
+Clone10.py,No wheat,0,63,
+Clone208.py,Has necessary and sufficient wheat,5,106,0_1_3_4_6_,"def is_sorted(stuff) :
+","	for index, item in enumerate(stuff) :
+","			if item > stuff [index + 1] :
+","				return False
+","			return True
+"
+Clone199.py,Has necessary and sufficient wheat,1,1,0_,"def convert_timestamp(date_timestamp = None) :
+"
+Clone319.py,No wheat,0,31,
+Clone867.py,No wheat,0,255,
+Clone836.py,Has necessary and sufficient wheat,3,16,0_1_2_,"def contains_consecutive_duplicates(xs) :
+","	for i in range(len(xs) - 1) :
+","		if xs [i] == xs [i + 1] :
+"
+Clone976.py,No wheat,0,31,
+Clone457.py,No wheat,0,127,
+Clone686.py,No wheat,0,31,
+Clone797.py,Has necessary and sufficient wheat,6,221,0_1_2_3_4_7_,"def count(list1) :
+","	total = 0
+","	old = 0
+","	for position, x in enumerate(list1) :
+","		total = x + old
+","	return
+"
+Clone546.py,Has necessary and sufficient wheat,7,480,0_1_2_5_6_7_8_,"def is_prime(x) :
+","	if x < 2 :
+","		return False
+","	for n in range(2, x) :
+","		if x % n == 0 :
+","			return False
+","	return True
+"
+Clone913.py,No wheat,0,63,
+Clone581.py,No wheat,0,255,
+Clone750.py,No wheat,0,255,
+Clone572.py,No wheat,0,255,
+Clone523.py,Has necessary and sufficient wheat,7,251,0_1_2_4_5_6_7_,"def reverseParentheses(s) :
+","	if s.find('(') == - 1 :
+","		return s
+","		beg, end = s.find('('), s.rfind(')')
+","	else :
+","		beg, end = s.find(')'), s.rfind('(')
+","	return s [: beg] + reverseParentheses(s [beg + 1 : end] [: : - 1]) + s [end + 1 :]
+"
+Clone463.py,No wheat,0,511,
+Clone480.py,Has necessary and sufficient wheat,4,45,0_1_3_4_,"def is_valid_hostname(hostname) :
+","	if len(hostname) > 255 :
+","	hostname = hostname.rstrip(""."")
+","	allowed = re.compile(""(?!-)[A-Z\d\-\_]{1,63}(?<!-)$"", re.IGNORECASE)
+"
+Clone787.py,No wheat,0,127,
+Clone696.py,No wheat,0,511,
+Clone995.py,No wheat,0,511,
+Clone447.py,No wheat,0,63,
+Clone966.py,Has necessary and sufficient wheat,1,1,0_,"def read_logfile(master_log, linecount = 1) :
+"
+Clone877.py,Has necessary and sufficient wheat,7,471,0_1_2_3_4_7_8_,"def sublist(a, b) :
+","	i = - 1
+","	try :
+","		for e in a :
+","			i = b.index(e, i + 1)
+","	else :
+","		return True
+"
+Clone309.py,No wheat,0,127,
+Clone218.py,No wheat,0,511,
+Clone269.py,No wheat,0,127,
+Clone585.py,No wheat,0,63,
+Clone754.py,No wheat,0,31,
+Clone806.py,No wheat,0,1023,
+Clone705.py,No wheat,0,63,
+Clone576.py,No wheat,0,127,
+Clone731.py,No wheat,0,255,
+Clone671.py,No wheat,0,255,
+Clone972.py,No wheat,0,127,
+Clone402.py,No wheat,0,127,
+Clone793.py,No wheat,0,127,
+Clone542.py,Has necessary and sufficient wheat,1,1,0_,"def touch(fname) :
+"
+Clone453.py,Has necessary and sufficient wheat,5,62,1_2_3_4_5_,"	pos = 0
+","	for item in seq :
+","		if not pred(item) :
+","			return seq [: pos], seq [pos :]
+","		pos += 1
+"
+Clone981.py,No wheat,0,127,
+Clone513.py,Has necessary and sufficient wheat,4,140,1_3_4_7_,"	if self.value == st :
+","	else :
+","		if not self.children :
+","			return any(child.search(st) for child in self.children)
+"
+Clone692.py,No wheat,0,31,
+Clone880.py,Has necessary and sufficient wheat,5,285,0_1_4_6_8_,"def sublist(a, b) :
+","	i = - 1
+","			i = b.index(e, i + 1)
+","		return False
+","		return True
+"
+Clone630.py,No wheat,0,1023,
+Clone873.py,No wheat,0,511,
+Clone962.py,No wheat,0,127,
+Clone822.py,Has necessary and sufficient wheat,2,22,1_6_,"	for (key, value) in json_dict.items() :
+","		else :
+"
+Clone721.py,No wheat,0,63,
+Clone655.py,No wheat,0,511,
+Clone847.py,No wheat,0,63,
+Clone595.py,No wheat,0,255,
+Clone339.py,No wheat,0,31,
+Clone368.py,No wheat,0,31,
+Clone228.py,No wheat,0,63,
+Clone584.py,No wheat,0,255,
+Clone755.py,No wheat,0,511,
+Clone704.py,Has necessary and sufficient wheat,4,188,1_2_3_6_,"	self.interrupted = False
+","	self.released = False
+","	self.original_handler = signal.getsignal(self.sig)
+","		self.interrupted = True
+"
+Clone807.py,Has necessary and sufficient wheat,5,111,0_2_3_5_6_,"def is_continuous(seq) :
+","		first_none_pos = next(i for i, x in enumerate(seq) if x is not None)
+","		last_none_pos = - next(i for i, x in enumerate(reversed(seq)) if x is not None) or None
+","		return False
+","	return None not in seq [first_none_pos : last_none_pos]
+"
+Clone98.py,No wheat,0,511,
+Clone526.py,No wheat,0,31,
+Clone466.py,Has necessary and sufficient wheat,0,0,
+Clone577.py,No wheat,0,63,
+Clone730.py,No wheat,0,511,
+Clone973.py,No wheat,0,31,
+Clone670.py,No wheat,0,255,
+Clone922.py,Has necessary and sufficient wheat,4,42,0_1_2_3_,"def toc() :
+","	import time
+","	if 'startTime_for_tictoc' in globals() :
+","		print ""Elapsed time is "" + str(time.time() - startTime_for_tictoc) + "" seconds.""
+"
+Clone621.py,No wheat,0,1023,
+Clone792.py,No wheat,0,127,
+Clone403.py,No wheat,0,63,
+Clone452.py,Has necessary and sufficient wheat,6,125,0_2_3_4_5_6_,"def split_at_first_false(pred, seq) :
+","		seq = list(seq)
+","	for i, x in enumerate(seq) :
+","		if not pred(x) :
+","			return seq [: i], seq [i :]
+","	return seq, []
+"
+Clone442.py,No wheat,0,511,
+Clone413.py,No wheat,0,127,
+Clone932.py,Has necessary and sufficient wheat,8,504,0_1_2_3_4_3_7_8_,"def unique(x) :
+","	output = []
+","	y = {}
+","	for item in x :
+","		y [item] = """"
+","	for item in x :
+","			output.append(item)
+","	return output
+"
+Clone631.py,No wheat,0,63,
+Clone771.py,No wheat,0,1023,
+Clone720.py,No wheat,0,15,
+Clone823.py,Has necessary and sufficient wheat,1,3,2_,"	while (self.process.poll() is None and self.timeout > 0) :
+"
+Clone88.py,Has necessary and sufficient wheat,1,5,4_,"	return json.JSONEncoder.default(self, obj)
+"
+Clone714.py,No wheat,0,127,
+Clone817.py,No wheat,0,511,
+Clone654.py,No wheat,0,63,
+Clone594.py,No wheat,0,127,
+Clone605.py,No wheat,0,1023,
+Clone198.py,No wheat,0,511,
+Clone318.py,No wheat,0,31,
+Clone837.py,No wheat,0,63,
+Clone674.py,No wheat,0,63,
+Clone977.py,No wheat,0,1023,
+Clone407.py,No wheat,0,31,
+Clone796.py,Has necessary and sufficient wheat,5,100,0_1_2_3_5_,"def decrypt(key, encoded) :
+","	key = key.encode('ascii')
+","	padded_key = key.ljust(KEY_SIZE, b'\0')
+","	ciphertext = base64.b64decode(encoded.encode('ascii'))
+","	dg = pprp.rjindael_decrypt_gen(padded_key, sg, block_size = BLOCK_SIZE)
+"
+Clone580.py,No wheat,0,31,
+Clone912.py,No wheat,0,31,
+Clone433.py,Has necessary and sufficient wheat,1,2,1_,"	partial = True
+"
+Clone522.py,No wheat,0,127,
+Clone842.py,No wheat,0,127,
+Clone741.py,No wheat,0,63,
+Clone902.py,No wheat,0,31,
+Clone813.py,No wheat,0,63,
+Clone710.py,No wheat,0,255,
+Clone827.py,No wheat,0,255,
+Clone724.py,No wheat,0,255,
+Clone775.py,No wheat,0,63,
+Clone308.py,No wheat,0,127,
+Clone219.py,Has necessary and sufficient wheat,8,505,0_1_2_3_4_6_7_8_,"def is_rotation(a, b) :
+","	if len(a) == len(b) :
+","		da = deque(a)
+","		db = deque(b)
+","		for offset in range(len(a)) :
+","				return True
+","			da.rotate(1)
+","	return False
+"
