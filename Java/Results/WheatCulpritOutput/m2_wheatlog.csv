@@ -1,0 +1,73 @@
+Sun Dec 11 02:51:39 SGT 2022,Clone370,No wheat,0,30,
+Sun Dec 11 03:26:48 SGT 2022,Clone240,No wheat,0,126,
+Sun Dec 11 03:56:50 SGT 2022,Clone701,No wheat,0,126,
+Sun Dec 11 06:05:34 SGT 2022,Clone888,Found necessary statements,4,385,final SFTPClient sftp=ssh.newSFTPClient(); sftp.put(new FileSystemFile(src),"/tmp"); sftp.close(); ssh.disconnect(); 
+Sun Dec 11 06:05:45 SGT 2022,Clone888,Found suf and nec statements,4,385,final SFTPClient sftp=ssh.newSFTPClient(); sftp.put(new FileSystemFile(src),"/tmp"); sftp.close(); ssh.disconnect(); 
+Sun Dec 11 07:37:41 SGT 2022,Clone803,No wheat,0,510,
+Sun Dec 11 10:39:40 SGT 2022,Clone125,No wheat,0,1022,
+Sun Dec 11 10:51:04 SGT 2022,Clone711,No wheat,0,62,
+Sun Dec 11 14:13:12 SGT 2022,Clone895,No wheat,0,62,
+Sun Dec 11 16:38:53 SGT 2022,Clone779,Found necessary statements,5,350,Map<String,Integer> unique=new LinkedHashMap<String,Integer>(); unique.put(string,1); unique.put(string,unique.get(string) + 1); List<Integer> value=new ArrayList<Integer>(unique.values()); System.out.println("Values = " + value); 
+Sun Dec 11 16:39:04 SGT 2022,Clone779,Found suf and nec statements,5,350,Map<String,Integer> unique=new LinkedHashMap<String,Integer>(); unique.put(string,1); unique.put(string,unique.get(string) + 1); List<Integer> value=new ArrayList<Integer>(unique.values()); System.out.println("Values = " + value); 
+Sun Dec 11 16:46:05 SGT 2022,Clone671,No wheat,0,14,
+Sun Dec 11 17:08:16 SGT 2022,Clone938,No wheat,0,126,
+Sun Dec 11 17:52:25 SGT 2022,Clone687,No wheat,0,254,
+Sun Dec 11 19:22:36 SGT 2022,Clone90,No wheat,0,254,
+Sun Dec 11 20:06:36 SGT 2022,Clone887,No wheat,0,254,
+Sun Dec 11 21:53:18 SGT 2022,Clone867,No wheat,0,510,
+Sun Dec 11 22:26:48 SGT 2022,Clone813,No wheat,0,62,
+Sun Dec 11 23:40:46 SGT 2022,Clone941,No wheat,0,254,
+Mon Dec 12 00:02:48 SGT 2022,Clone138,No wheat,0,126,
+Mon Dec 12 06:27:21 SGT 2022,Clone758,No wheat,0,1022,
+Mon Dec 12 06:29:14 SGT 2022,Clone738,Found necessary statements,1,9,return currentLine[currentLineReadPos--]; 
+Mon Dec 12 06:29:25 SGT 2022,Clone738,Found suf and nec statements,1,9,return currentLine[currentLineReadPos--]; 
+Mon Dec 12 06:40:23 SGT 2022,Clone940,No wheat,0,62,
+Mon Oct 17 00:19:51 SGT 2022,Clone915,Found necessary statements,1,2,if(bytes == null) 
+Mon Oct 17 00:20:03 SGT 2022,Clone915,Found suf and nec statements,1,2,if(bytes == null) 
+Mon Oct 17 02:08:09 SGT 2022,Clone556,No wheat,0,126,
+Mon Oct 17 02:35:40 SGT 2022,Clone868,No wheat,0,30,
+Mon Oct 17 06:52:31 SGT 2022,Clone469,Found necessary statements,2,14,public static void main (String [] args) throws UnknownHostException, IOException { System.out.println("Sending Ping Request to " + inet); 
+Mon Oct 17 06:52:42 SGT 2022,Clone469,Found suf and nec statements,2,14,public static void main (String [] args) throws UnknownHostException, IOException { System.out.println("Sending Ping Request to " + inet); 
+Mon Oct 17 08:11:28 SGT 2022,Clone807,Found necessary statements,3,120,for([int i=0] i < files.length [i++]) if(files[i].isDirectory()) deleteDirectory(files[i]); 
+Mon Oct 17 08:11:39 SGT 2022,Clone807,Found suf and nec statements,3,120,for([int i=0] i < files.length [i++]) if(files[i].isDirectory()) deleteDirectory(files[i]); 
+Mon Oct 17 08:12:10 SGT 2022,Clone23,Found necessary statements,1,1,public double getSum () { 
+Mon Oct 17 08:12:20 SGT 2022,Clone23,Found suf and nec statements,1,1,public double getSum () { 
+Mon Oct 17 08:24:24 SGT 2022,Clone457,Found necessary statements,3,61,for([int i=0] i < 4 [++i]) pool.execute(new MyTask(counter)); pool.awaitTermination(1,TimeUnit.HOURS); 
+Mon Oct 17 08:24:34 SGT 2022,Clone457,Found suf and nec statements,3,61,for([int i=0] i < 4 [++i]) pool.execute(new MyTask(counter)); pool.awaitTermination(1,TimeUnit.HOURS); 
+Mon Oct 17 08:26:09 SGT 2022,Clone610,Found necessary statements,1,7,return zonedDateTime; 
+Mon Oct 17 08:26:29 SGT 2022,Clone610,Found necessary statements,2,8,return zonedDateTime; public ZonedDateTime parseToZonedDateTime (String date, String dateFormat) { DateTimeFormatter formatter=DateTimeFormatter.ofPattern(dateFormat); 
+Mon Oct 17 08:29:07 SGT 2022,Clone610,Found necessary statements,2,22,return zonedDateTime; public ZonedDateTime parseToZonedDateTime (String date, String dateFormat) { DateTimeFormatter formatter=DateTimeFormatter.ofPattern(dateFormat); ZonedDateTime zonedDateTime=null; return zonedDateTime; 
+Mon Oct 17 08:29:18 SGT 2022,Clone610,Found suf and nec statements,2,22,ZonedDateTime zonedDateTime=null; return zonedDateTime; 
+Mon Oct 17 09:49:39 SGT 2022,Clone819,No wheat,0,62,
+Mon Oct 17 10:37:06 SGT 2022,Clone105,No wheat,0,126,
+Mon Oct 17 11:02:53 SGT 2022,Clone712,No wheat,0,126,
+Mon Oct 17 11:04:58 SGT 2022,Clone917,Found necessary statements,2,10,public static String toHexString (byte [] bytes) { for([int i=0] i < bytes.length [i++]) 
+Mon Oct 17 11:05:09 SGT 2022,Clone917,Found suf and nec statements,2,10,public static String toHexString (byte [] bytes) { for([int i=0] i < bytes.length [i++]) 
+Mon Oct 17 12:40:54 SGT 2022,Clone632,Found necessary statements,1,6,System.out.println("memory=" + Runtime.getRuntime().freeMemory() + " / "+ Runtime.getRuntime().totalMemory()); 
+Mon Oct 17 12:41:05 SGT 2022,Clone632,Found suf and nec statements,1,6,System.out.println("memory=" + Runtime.getRuntime().freeMemory() + " / "+ Runtime.getRuntime().totalMemory()); 
+Mon Oct 17 18:50:55 SGT 2022,Clone746,No wheat,0,62,
+Mon Oct 17 21:45:44 SGT 2022,Clone192,No wheat,0,30,
+Mon Oct 17 22:09:32 SGT 2022,Clone16,Found necessary statements,1,4,File json=new File("test.json"); 
+Mon Oct 17 22:09:43 SGT 2022,Clone16,Found suf and nec statements,1,4,File json=new File("test.json"); 
+Tue Oct 18 01:33:14 SGT 2022,Clone869,No wheat,0,1022,
+Tue Oct 18 01:55:35 SGT 2022,Clone707,No wheat,0,126,
+Tue Oct 18 01:57:30 SGT 2022,Clone660,Found necessary statements,2,7,public static void main (String [] args) { char cont='E'; 
+Tue Oct 18 01:57:40 SGT 2022,Clone660,Found suf and nec statements,2,7,public static void main (String [] args) { char cont='E'; 
+Tue Oct 18 02:43:36 SGT 2022,Clone87,No wheat,0,254,
+Tue Oct 18 03:26:26 SGT 2022,Clone39,No wheat,0,62,
+Tue Oct 18 03:27:08 SGT 2022,Clone815,Found necessary statements,1,2,String[] arr=str.split(""); 
+Tue Oct 18 03:27:19 SGT 2022,Clone815,Found suf and nec statements,1,2,String[] arr=str.split(""); 
+Tue Oct 18 04:23:43 SGT 2022,Clone364,No wheat,0,62,
+Tue Oct 18 05:09:08 SGT 2022,Clone127,No wheat,0,254,
+Tue Oct 18 05:20:49 SGT 2022,Clone732,Found necessary statements,2,16,logger.info("checking client id in filter"); if(StringUtils.isNotEmpty(clientId)) 
+Tue Oct 18 05:22:13 SGT 2022,Clone732,Found necessary statements,2,23,logger.info("checking client id in filter"); if(StringUtils.isNotEmpty(clientId)) String clientId=request.getHeader("clientId"); if(StringUtils.isNotEmpty(clientId)) 
+Tue Oct 18 05:22:24 SGT 2022,Clone732,Found suf and nec statements,2,23,String clientId=request.getHeader("clientId"); if(StringUtils.isNotEmpty(clientId)) 
+Tue Oct 18 05:25:46 SGT 2022,Clone752,Found necessary statements,1,9,for([int i=0] i < 100 [++i]) 
+Tue Oct 18 05:25:56 SGT 2022,Clone752,Found suf and nec statements,1,9,for([int i=0] i < 100 [++i]) 
+Tue Oct 18 05:29:28 SGT 2022,Clone349,Found necessary statements,1,2,InputStream is=new BufferedInputStream(new FileInputStream(file)); 
+Tue Oct 18 05:29:39 SGT 2022,Clone349,Found suf and nec statements,1,2,InputStream is=new BufferedInputStream(new FileInputStream(file)); 
+Tue Oct 18 10:02:27 SGT 2022,Clone926,Found necessary statements,1,1,public static void main (String [] args) { 
+Tue Oct 18 10:02:37 SGT 2022,Clone926,Found suf and nec statements,1,1,public static void main (String [] args) { 
+Tue Oct 18 10:49:46 SGT 2022,Clone554,No wheat,0,254,
+Tue Oct 18 11:35:37 SGT 2022,Clone459,Found necessary statements,4,260,while(true) Object expensiveObject=expensiveObjects.take(); String output=task(); expensiveObjects.put(expensiveObject); 
+Tue Oct 18 11:35:48 SGT 2022,Clone459,Found suf and nec statements,4,260,while(true) Object expensiveObject=expensiveObjects.take(); String output=task(); expensiveObjects.put(expensiveObject); 

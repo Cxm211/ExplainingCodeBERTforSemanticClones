@@ -1,0 +1,108 @@
+Sat Dec 10 18:23:54 SGT 2022,Clone793,No wheat,0,62,
+Sat Dec 10 19:33:41 SGT 2022,Clone240,Found necessary statements,5,387,public static int solution (int X, int [] A) { int[] count=new int[X]; for([int i=0] i < A.length [i++]) count[A[i] - 1]++; for([int j=0] j < count.length [j++]) 
+Sat Dec 10 19:33:51 SGT 2022,Clone240,Found suf and nec statements,5,387,public static int solution (int X, int [] A) { int[] count=new int[X]; for([int i=0] i < A.length [i++]) count[A[i] - 1]++; for([int j=0] j < count.length [j++]) 
+Sat Dec 10 19:43:04 SGT 2022,Clone701,Found necessary statements,3,51,public static void printTable (String [] countries, int [] populations) { int countryLength=0; for([int i=0] i < countries.length [i++]) 
+Sat Dec 10 19:43:15 SGT 2022,Clone701,Found suf and nec statements,3,51,public static void printTable (String [] countries, int [] populations) { int countryLength=0; for([int i=0] i < countries.length [i++]) 
+Sat Dec 10 21:30:04 SGT 2022,Clone888,No wheat,0,254,
+Sat Dec 10 21:43:11 SGT 2022,Clone803,Found necessary statements,3,56,public void shuffle (String input) { int randPicker=(int)(Math.random() * characters.size()); System.out.println(output.toString()); 
+Sat Dec 10 21:43:24 SGT 2022,Clone803,Found suf and nec statements,3,56,public void shuffle (String input) { int randPicker=(int)(Math.random() * characters.size()); System.out.println(output.toString()); 
+Sat Dec 10 21:50:33 SGT 2022,Clone711,No wheat,0,30,
+Sun Dec 11 03:51:56 SGT 2022,Clone895,No wheat,0,254,
+Sun Dec 11 07:42:54 SGT 2022,Clone779,No wheat,0,1022,
+Sun Dec 11 10:58:16 SGT 2022,Clone671,Found necessary statements,4,73,public void run () { System.out.println(i); e.printStackTrace(); e.printStackTrace(); 
+Sun Dec 11 10:58:26 SGT 2022,Clone671,Found suf and nec statements,4,73,public void run () { System.out.println(i); e.printStackTrace(); e.printStackTrace(); 
+Sun Dec 11 11:06:06 SGT 2022,Clone938,Found necessary statements,3,41,public String join (String a, String b, String separator) { if(!isEmpty(a) && !isEmpty(b)) return b; 
+Sun Dec 11 11:06:17 SGT 2022,Clone938,Found suf and nec statements,3,41,public String join (String a, String b, String separator) { if(!isEmpty(a) && !isEmpty(b)) return b; 
+Tue Dec 13 02:04:28 SGT 2022,Clone370,Found necessary statements,4,53,for([int i=0] i < 5 [i++]) world.acquire(); System.out.println("  World!"); e.printStackTrace(); 
+Tue Dec 13 02:04:38 SGT 2022,Clone370,Found suf and nec statements,4,53,for([int i=0] i < 5 [i++]) world.acquire(); System.out.println("  World!"); e.printStackTrace(); 
+Tue Dec 13 02:24:18 SGT 2022,Clone125,Found necessary statements,4,110,public static String center (String text, int len) { return text.substring(0,len); int before=(len - text.length()) / 2; int rest=len - before; 
+Tue Dec 13 02:24:29 SGT 2022,Clone125,Found suf and nec statements,4,110,public static String center (String text, int len) { return text.substring(0,len); int before=(len - text.length()) / 2; int rest=len - before; 
+Tue Dec 13 02:32:17 SGT 2022,Clone687,Found necessary statements,3,35,synchronized public void print () throws InterruptedException { for([int i=0] i < 5 [i++]) System.out.println(count + " -- " + Thread.currentThread()); 
+Tue Dec 13 02:32:28 SGT 2022,Clone687,Found suf and nec statements,3,35,synchronized public void print () throws InterruptedException { for([int i=0] i < 5 [i++]) System.out.println(count + " -- " + Thread.currentThread()); 
+Tue Dec 13 05:47:57 SGT 2022,Clone90,No wheat,0,1022,
+Tue Dec 13 06:33:33 SGT 2022,Clone887,No wheat,0,254,
+Tue Dec 13 06:56:55 SGT 2022,Clone867,Found necessary statements,1,1,public V put (K key, V value) { 
+Tue Dec 13 06:57:06 SGT 2022,Clone867,Found suf and nec statements,1,1,public V put (K key, V value) { 
+Tue Dec 13 10:01:36 SGT 2022,Clone813,Found necessary statements,2,7,public boolean onKeyDown (int keyCode, KeyEvent event) { if((keyCode == KeyEvent.KEYCODE_VOLUME_DOWN)) 
+Tue Dec 13 10:01:46 SGT 2022,Clone813,Found suf and nec statements,2,7,public boolean onKeyDown (int keyCode, KeyEvent event) { if((keyCode == KeyEvent.KEYCODE_VOLUME_DOWN)) 
+Tue Dec 13 10:14:47 SGT 2022,Clone941,Found necessary statements,3,71,public static String makeStringsEqual (String str, String keyword) { int keywordIndex=0; for([int i=0] i < str.length() [i++]) 
+Tue Dec 13 10:14:57 SGT 2022,Clone941,Found suf and nec statements,3,71,public static String makeStringsEqual (String str, String keyword) { int keywordIndex=0; for([int i=0] i < str.length() [i++]) 
+Tue Dec 13 10:24:46 SGT 2022,Clone138,Found necessary statements,3,53,public synchronized void add (M msg) { queues.add(queue); queue.add(msg); 
+Tue Dec 13 10:24:56 SGT 2022,Clone138,Found suf and nec statements,3,53,public synchronized void add (M msg) { queues.add(queue); queue.add(msg); 
+Tue Dec 13 12:57:13 SGT 2022,Clone758,Found necessary statements,6,691,public static void main (String [] args) throws Exception { NestedMap<String,Integer> test=new NestedMap<>(); Map.Entry<String,Integer> foo=test.put("a").put("b").put("d",12); System.out.println(mapper.writeValueAsString(test)); System.out.println(mapper.writeValueAsString(test)); System.out.println(test.get("a").get("b").getValue("d")); 
+Tue Dec 13 12:57:23 SGT 2022,Clone758,Found suf and nec statements,6,691,public static void main (String [] args) throws Exception { NestedMap<String,Integer> test=new NestedMap<>(); Map.Entry<String,Integer> foo=test.put("a").put("b").put("d",12); System.out.println(mapper.writeValueAsString(test)); System.out.println(mapper.writeValueAsString(test)); System.out.println(test.get("a").get("b").getValue("d")); 
+Tue Dec 13 13:28:12 SGT 2022,Clone738,Found necessary statements,4,178,public int read () throws IOException { return readByte; if(currentPos < 0) return read(); 
+Tue Dec 13 13:28:22 SGT 2022,Clone738,Found suf and nec statements,4,178,public int read () throws IOException { return readByte; if(currentPos < 0) return read(); 
+Tue Dec 13 13:50:26 SGT 2022,Clone940,No wheat,0,126,
+Thu Oct 13 01:35:05 SGT 2022,Clone915,Found necessary statements,3,59,public static String toHexString (byte [] bytes) { int v; for([int j=0] j < bytes.length [j++]) 
+Thu Oct 13 01:35:16 SGT 2022,Clone915,Found suf and nec statements,3,59,public static String toHexString (byte [] bytes) { int v; for([int j=0] j < bytes.length [j++]) 
+Thu Oct 13 01:55:04 SGT 2022,Clone537,Found necessary statements,2,14,public static String validName (Scanner input, Scanner histogram) { String userInput=input.next(); 
+Thu Oct 13 01:56:39 SGT 2022,Clone537,Found necessary statements,2,22,public static String validName (Scanner input, Scanner histogram) { String userInput=input.next(); HashSet<String> validInputs=new HashSet<>(); if(validInputs.contains(userInput)) 
+Thu Oct 13 01:56:49 SGT 2022,Clone537,Found suf and nec statements,2,22,HashSet<String> validInputs=new HashSet<>(); if(validInputs.contains(userInput)) 
+Thu Oct 13 01:58:03 SGT 2022,Clone963,Found necessary statements,1,5,number=in.nextInt(); 
+Thu Oct 13 01:58:13 SGT 2022,Clone963,Found suf and nec statements,1,5,number=in.nextInt(); 
+Thu Oct 13 03:53:44 SGT 2022,Clone469,Found necessary statements,1,3,boolean reachable=address.isReachable(10000); 
+Thu Oct 13 03:53:54 SGT 2022,Clone469,Found suf and nec statements,1,3,boolean reachable=address.isReachable(10000); 
+Thu Oct 13 04:45:55 SGT 2022,Clone23,Found necessary statements,2,10,public double getSum () { for([int i=0] i < subAccounts.size() [i++]) 
+Thu Oct 13 04:46:06 SGT 2022,Clone23,Found suf and nec statements,2,10,public double getSum () { for([int i=0] i < subAccounts.size() [i++]) 
+Thu Oct 13 04:49:04 SGT 2022,Clone457,Found necessary statements,1,6,for([int i=0] i < 4 [i++]) 
+Thu Oct 13 04:49:15 SGT 2022,Clone457,Found suf and nec statements,1,6,for([int i=0] i < 4 [i++]) 
+Thu Oct 13 04:49:47 SGT 2022,Clone610,Found necessary statements,1,1,public ZonedDateTime parseToZonedDateTime (String date, String dateFormat) { 
+Thu Oct 13 04:50:07 SGT 2022,Clone610,Found necessary statements,1,2,public ZonedDateTime parseToZonedDateTime (String date, String dateFormat) { DateTimeFormatter formatter=DateTimeFormatter.ofPattern(dateFormat); 
+Thu Oct 13 04:50:28 SGT 2022,Clone610,Found necessary statements,1,3,public ZonedDateTime parseToZonedDateTime (String date, String dateFormat) { DateTimeFormatter formatter=DateTimeFormatter.ofPattern(dateFormat); TemporalAccessor parsed=formatter.parseBest(date,null,null); 
+Thu Oct 13 04:51:52 SGT 2022,Clone610,Found necessary statements,2,10,public ZonedDateTime parseToZonedDateTime (String date, String dateFormat) { DateTimeFormatter formatter=DateTimeFormatter.ofPattern(dateFormat); TemporalAccessor parsed=formatter.parseBest(date,null,null); public ZonedDateTime parseToZonedDateTime (String date, String dateFormat) { DateTimeFormatter formatter=DateTimeFormatter.ofPattern(dateFormat); 
+Thu Oct 13 04:52:13 SGT 2022,Clone610,Found necessary statements,2,11,public ZonedDateTime parseToZonedDateTime (String date, String dateFormat) { DateTimeFormatter formatter=DateTimeFormatter.ofPattern(dateFormat); TemporalAccessor parsed=formatter.parseBest(date,null,null); public ZonedDateTime parseToZonedDateTime (String date, String dateFormat) { DateTimeFormatter formatter=DateTimeFormatter.ofPattern(dateFormat); public ZonedDateTime parseToZonedDateTime (String date, String dateFormat) { TemporalAccessor parsed=formatter.parseBest(date,null,null); 
+Thu Oct 13 04:52:34 SGT 2022,Clone610,Found necessary statements,2,12,public ZonedDateTime parseToZonedDateTime (String date, String dateFormat) { DateTimeFormatter formatter=DateTimeFormatter.ofPattern(dateFormat); TemporalAccessor parsed=formatter.parseBest(date,null,null); public ZonedDateTime parseToZonedDateTime (String date, String dateFormat) { DateTimeFormatter formatter=DateTimeFormatter.ofPattern(dateFormat); public ZonedDateTime parseToZonedDateTime (String date, String dateFormat) { TemporalAccessor parsed=formatter.parseBest(date,null,null); public ZonedDateTime parseToZonedDateTime (String date, String dateFormat) { if(parsed instanceof ZonedDateTime) 
+Thu Oct 13 04:52:55 SGT 2022,Clone610,Found necessary statements,2,13,public ZonedDateTime parseToZonedDateTime (String date, String dateFormat) { DateTimeFormatter formatter=DateTimeFormatter.ofPattern(dateFormat); TemporalAccessor parsed=formatter.parseBest(date,null,null); public ZonedDateTime parseToZonedDateTime (String date, String dateFormat) { DateTimeFormatter formatter=DateTimeFormatter.ofPattern(dateFormat); public ZonedDateTime parseToZonedDateTime (String date, String dateFormat) { TemporalAccessor parsed=formatter.parseBest(date,null,null); public ZonedDateTime parseToZonedDateTime (String date, String dateFormat) { if(parsed instanceof ZonedDateTime) public ZonedDateTime parseToZonedDateTime (String date, String dateFormat) { return (ZonedDateTime)parsed; 
+Thu Oct 13 04:53:17 SGT 2022,Clone610,Found necessary statements,2,14,public ZonedDateTime parseToZonedDateTime (String date, String dateFormat) { DateTimeFormatter formatter=DateTimeFormatter.ofPattern(dateFormat); TemporalAccessor parsed=formatter.parseBest(date,null,null); public ZonedDateTime parseToZonedDateTime (String date, String dateFormat) { DateTimeFormatter formatter=DateTimeFormatter.ofPattern(dateFormat); public ZonedDateTime parseToZonedDateTime (String date, String dateFormat) { TemporalAccessor parsed=formatter.parseBest(date,null,null); public ZonedDateTime parseToZonedDateTime (String date, String dateFormat) { if(parsed instanceof ZonedDateTime) public ZonedDateTime parseToZonedDateTime (String date, String dateFormat) { return (ZonedDateTime)parsed; public ZonedDateTime parseToZonedDateTime (String date, String dateFormat) { if(parsed instanceof LocalDateTime) 
+Thu Oct 13 04:53:37 SGT 2022,Clone610,Found necessary statements,2,15,public ZonedDateTime parseToZonedDateTime (String date, String dateFormat) { DateTimeFormatter formatter=DateTimeFormatter.ofPattern(dateFormat); TemporalAccessor parsed=formatter.parseBest(date,null,null); public ZonedDateTime parseToZonedDateTime (String date, String dateFormat) { DateTimeFormatter formatter=DateTimeFormatter.ofPattern(dateFormat); public ZonedDateTime parseToZonedDateTime (String date, String dateFormat) { TemporalAccessor parsed=formatter.parseBest(date,null,null); public ZonedDateTime parseToZonedDateTime (String date, String dateFormat) { if(parsed instanceof ZonedDateTime) public ZonedDateTime parseToZonedDateTime (String date, String dateFormat) { return (ZonedDateTime)parsed; public ZonedDateTime parseToZonedDateTime (String date, String dateFormat) { if(parsed instanceof LocalDateTime) public ZonedDateTime parseToZonedDateTime (String date, String dateFormat) { LocalDateTime dt=(LocalDateTime)parsed; 
+Thu Oct 13 04:53:48 SGT 2022,Clone610,Found suf and nec statements,2,15,public ZonedDateTime parseToZonedDateTime (String date, String dateFormat) { LocalDateTime dt=(LocalDateTime)parsed; 
+Thu Oct 13 05:15:08 SGT 2022,Clone819,Found necessary statements,1,4,tempString.append(s); 
+Thu Oct 13 05:15:19 SGT 2022,Clone819,Found suf and nec statements,1,4,tempString.append(s); 
+Thu Oct 13 05:16:53 SGT 2022,Clone105,Found necessary statements,1,1,private void type (char character) { 
+Thu Oct 13 05:17:04 SGT 2022,Clone105,Found suf and nec statements,1,1,private void type (char character) { 
+Thu Oct 13 06:59:15 SGT 2022,Clone712,Found necessary statements,5,443,public static void main (String [] args) { for([int i=0] i < 7 [i++]) for([int j=0] j < 4 [j++]) if(i + j <= n - 4 || j == 0 || i == n - 1) if(i - j >= n - 4) 
+Thu Oct 13 06:59:25 SGT 2022,Clone712,Found suf and nec statements,5,443,public static void main (String [] args) { for([int i=0] i < 7 [i++]) for([int j=0] j < 4 [j++]) if(i + j <= n - 4 || j == 0 || i == n - 1) if(i - j >= n - 4) 
+Thu Oct 13 06:59:58 SGT 2022,Clone917,Found necessary statements,1,1,public static String toHexString (byte bytes []) { 
+Thu Oct 13 07:00:08 SGT 2022,Clone917,Found suf and nec statements,1,1,public static String toHexString (byte bytes []) { 
+Thu Oct 13 07:10:07 SGT 2022,Clone632,Found necessary statements,2,20,Class unsafeClass=Class.forName("sun.misc.Unsafe"); Field f=unsafeClass.getDeclaredField("theUnsafe"); 
+Thu Oct 13 07:10:18 SGT 2022,Clone632,Found suf and nec statements,2,20,Class unsafeClass=Class.forName("sun.misc.Unsafe"); Field f=unsafeClass.getDeclaredField("theUnsafe"); 
+Thu Oct 13 08:12:45 SGT 2022,Clone192,Found necessary statements,1,1,public void actionPerformed (ActionEvent e) { 
+Thu Oct 13 08:12:56 SGT 2022,Clone192,Found suf and nec statements,1,1,public void actionPerformed (ActionEvent e) { 
+Thu Oct 13 08:13:27 SGT 2022,Clone939,Found necessary statements,1,1,public static void main (String [] args) { 
+Thu Oct 13 08:13:48 SGT 2022,Clone939,Found necessary statements,1,2,public static void main (String [] args) { LocalDateTime from=LocalDateTime.parse("2015-07-24T09:39:14.000Z",ISODateTimeFormat.dateTime()); 
+Thu Oct 13 08:13:59 SGT 2022,Clone939,Found suf and nec statements,1,2,LocalDateTime from=LocalDateTime.parse("2015-07-24T09:39:14.000Z",ISODateTimeFormat.dateTime()); 
+Thu Oct 13 08:20:40 SGT 2022,Clone16,Found necessary statements,1,1,public static void main (String [] args) { 
+Thu Oct 13 08:21:12 SGT 2022,Clone16,Found necessary statements,1,3,public static void main (String [] args) { File json=new File("test.json"); 
+Thu Oct 13 08:21:22 SGT 2022,Clone16,Found suf and nec statements,1,3,File json=new File("test.json"); 
+Thu Oct 13 09:07:59 SGT 2022,Clone707,Found necessary statements,1,1,public boolean equals (Object that) { 
+Thu Oct 13 09:08:09 SGT 2022,Clone707,Found suf and nec statements,1,1,public boolean equals (Object that) { 
+Thu Oct 13 09:17:37 SGT 2022,Clone660,Found necessary statements,3,49,public static void main (String [] args) { System.out.println("What scale is your temp currently in?\n" + "1: Fahrenheit\n" + "2: Celsius\n"+ "3: Kelvin\n"+ "Please enter 1, 2, or 3: \n"); System.out.println("What scale would you like to convert to?\n" + "1: Fahrenheit\n" + "2: Celsius\n"+ "3: Kelvin\n"+ "Please enter 1, 2, or 3:\n "); 
+Thu Oct 13 09:17:48 SGT 2022,Clone660,Found suf and nec statements,3,49,public static void main (String [] args) { System.out.println("What scale is your temp currently in?\n" + "1: Fahrenheit\n" + "2: Celsius\n"+ "3: Kelvin\n"+ "Please enter 1, 2, or 3: \n"); System.out.println("What scale would you like to convert to?\n" + "1: Fahrenheit\n" + "2: Celsius\n"+ "3: Kelvin\n"+ "Please enter 1, 2, or 3:\n "); 
+Thu Oct 13 09:20:15 SGT 2022,Clone87,Found necessary statements,1,9,keyRelease(c); 
+Thu Oct 13 09:20:26 SGT 2022,Clone87,Found suf and nec statements,1,9,keyRelease(c); 
+Thu Oct 13 09:44:54 SGT 2022,Clone608,Found necessary statements,1,2,inp=new Scanner(System.in); 
+Thu Oct 13 09:45:04 SGT 2022,Clone608,Found suf and nec statements,1,2,inp=new Scanner(System.in); 
+Thu Oct 13 10:15:34 SGT 2022,Clone39,Found necessary statements,4,42,public void shuffle (T [] ar) { for([int i=ar.length - 1] i > 0 [i--]) int index=rnd.nextInt(i + 1); T a=ar[index]; 
+Thu Oct 13 10:15:44 SGT 2022,Clone39,Found suf and nec statements,4,42,public void shuffle (T [] ar) { for([int i=ar.length - 1] i > 0 [i--]) int index=rnd.nextInt(i + 1); T a=ar[index]; 
+Thu Oct 13 10:34:42 SGT 2022,Clone815,Found necessary statements,4,106,private static void countString (String str, Character character) { int[] counts=new int[MAX_CHAR]; for([int i=0] i < counts.length [i++]) System.out.println("Character " + (char)i + " appeared "+ counts[i]+ " times"); 
+Thu Oct 13 10:34:52 SGT 2022,Clone815,Found suf and nec statements,4,106,private static void countString (String str, Character character) { int[] counts=new int[MAX_CHAR]; for([int i=0] i < counts.length [i++]) System.out.println("Character " + (char)i + " appeared "+ counts[i]+ " times"); 
+Thu Oct 13 11:25:42 SGT 2022,Clone364,Found necessary statements,6,224,public static int TestTryFinallyBlock () { int returnValue; int i=0; i=10; return returnValue; i=40; 
+Thu Oct 13 11:25:52 SGT 2022,Clone364,Found suf and nec statements,6,224,public static int TestTryFinallyBlock () { int returnValue; int i=0; i=10; return returnValue; i=40; 
+Thu Oct 13 12:05:06 SGT 2022,Clone127,Found necessary statements,6,222,int pow (int a, int p) { int res=1; int i1=31 - Integer.numberOfLeadingZeros(p); for([int i=i1] i >= 0 [--i]) if((p & (1 << i)) > 0) res*=a; 
+Thu Oct 13 12:05:17 SGT 2022,Clone127,Found suf and nec statements,6,222,int pow (int a, int p) { int res=1; int i1=31 - Integer.numberOfLeadingZeros(p); for([int i=i1] i >= 0 [--i]) if((p & (1 << i)) > 0) res*=a; 
+Thu Oct 13 12:29:15 SGT 2022,Clone732,Found necessary statements,1,1,public void doFilter (ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException { 
+Thu Oct 13 12:29:47 SGT 2022,Clone732,Found necessary statements,1,3,public void doFilter (ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException { if(req.getHeader("x-dawson-nonce") == null || req.getHeader("x-dawson-signature") == null) 
+Thu Oct 13 12:29:57 SGT 2022,Clone732,Found suf and nec statements,1,3,if(req.getHeader("x-dawson-nonce") == null || req.getHeader("x-dawson-signature") == null) 
+Thu Oct 13 12:32:13 SGT 2022,Clone752,Found necessary statements,2,9,public static void main (String [] args) throws Exception { ObservableList<Integer> olist=new ObservableList<>(); 
+Thu Oct 13 12:32:24 SGT 2022,Clone752,Found suf and nec statements,2,9,public static void main (String [] args) throws Exception { ObservableList<Integer> olist=new ObservableList<>(); 
+Thu Oct 13 12:33:26 SGT 2022,Clone349,Found necessary statements,1,1,public void actionPerformed (ActionEvent e) { 
+Thu Oct 13 12:35:11 SGT 2022,Clone349,Found necessary statements,2,10,public void actionPerformed (ActionEvent e) { public void actionPerformed (ActionEvent e) { OutputStream os=new BufferedOutputStream(new FileOutputStream(file)); 
+Thu Oct 13 12:35:22 SGT 2022,Clone349,Found suf and nec statements,2,10,public void actionPerformed (ActionEvent e) { OutputStream os=new BufferedOutputStream(new FileOutputStream(file)); 
+Thu Oct 13 13:22:53 SGT 2022,Clone926,Found necessary statements,1,8,while(it1.hasNext()) 
+Thu Oct 13 13:23:03 SGT 2022,Clone926,Found suf and nec statements,1,8,while(it1.hasNext()) 
+Thu Oct 13 14:56:03 SGT 2022,Clone554,No wheat,0,510,
+Thu Oct 13 15:04:29 SGT 2022,Clone459,Found necessary statements,3,46,while(true) String output=task(); System.out.println(output); 
+Thu Oct 13 15:04:39 SGT 2022,Clone459,Found suf and nec statements,3,46,while(true) String output=task(); System.out.println(output); 
+Fri Oct 14 20:48:13 SGT 2022,Clone556,Found necessary statements,1,4,result=JOptionPane.showConfirmDialog(gui,"Erase the current painting?"); 
+Fri Oct 14 20:48:24 SGT 2022,Clone556,Found suf and nec statements,1,4,result=JOptionPane.showConfirmDialog(gui,"Erase the current painting?"); 
