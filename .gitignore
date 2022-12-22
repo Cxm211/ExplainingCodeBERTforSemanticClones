@@ -1,6 +1,7 @@
 .idea
 *.iml
 out/production/*
+__pycache__/*
 
 # Compiled class file
 *.class
