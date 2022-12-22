@@ -3,7 +3,7 @@
 
 This GitHub repo contains the source code, data, and results from our research study on explaining the predictions of the CodeBERT model for semantic code clone detection.
 
-Data files include 100 clone pair samples of Java and 100 clone pair samples of Python which we filter from the SemanticCloneBench dataset of semantic clones. Data files also include the clone pair mutations generated as part of our wheat and culprit detection. The human labels for clone pairs and statements are also uploaded as data.
+Data files include 100 clone pair samples of Java and 100 clone pair samples of Python which we filter from the SemanticCloneBench dataset of semantic clones. The human labels for clone pairs and statements are also uploaded as data.
 
 Results include spreadsheets and files containing results of mislabeling analysis, misprediction analysis, correlation analysis, intersection analysis, and statement types analysis.
 
