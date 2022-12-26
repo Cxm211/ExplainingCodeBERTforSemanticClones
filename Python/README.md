@@ -47,6 +47,12 @@ Then 4 formatted wheat&culprit detection results will be generated. After that, 
 
 ```
 cd CorrelationFinder
+javac M1HumanCulpritCorrelationFinder
+javac M1HumanWheatCorrelationFinder
+javac M1HumanShapCorrelationFinder
+javac M2HumanCulpritCorrelationFinder
+javac M2HumanWheatCorrelationFinder
+javac M2HumanShapCorrelationFinder
 java M1HumanCulpritCorrelationFinder
 java M1HumanWheatCorrelationFinder
 java M1HumanShapCorrelationFinder
@@ -65,6 +71,8 @@ run the following commands:
 
 ```
 python result_human_formatter.py
+javac ShapRankm1
+javac ShapRankm2
 java ShapRankm1
 java ShapRankm2
 ```
