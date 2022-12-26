@@ -61,7 +61,6 @@ model.to(device)
 def myfunc():
 
     device = torch.device("cpu")
-    # path = 'D:/SMU/OneDrive - Singapore Management University/Gen. Work Artifacts/Xplain_CodeBERT_SemClone/test/MutatedSemanticClonePairs'
     path = 'pythontestfolder'
     clone_files = os.listdir(path)
 

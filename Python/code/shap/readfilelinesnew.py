@@ -10,7 +10,6 @@ def getm1linescount(filepath):
 
     linecount = 0
     device = torch.device("cpu")
-    # path = 'D:/SMU/OneDrive - Singapore Management University/Gen. Work Artifacts/Xplain_CodeBERT_SemClone/test/MutatedSemanticClonePairs'
     # path = 'pythontestfolder'
     path = filepath
     clone_files = os.listdir(path)
@@ -51,7 +50,7 @@ def getm1linescountfromfile(folderpath, filename):
     # include signature in linecount
     linecount = 0
     device = torch.device("cpu")
-    # path = 'D:/SMU/OneDrive - Singapore Management University/Gen. Work Artifacts/Xplain_CodeBERT_SemClone/test/MutatedSemanticClonePairs'
+
     # path = 'pythontestfolder'
     # path = filepath
     # clone_files = os.listdir(folderpath)
@@ -94,7 +93,7 @@ def getm2linescountfromfile(folderpath, filename):
     # include signature in linecount
     linecount = 0
     device = torch.device("cpu")
-    # path = 'D:/SMU/OneDrive - Singapore Management University/Gen. Work Artifacts/Xplain_CodeBERT_SemClone/test/MutatedSemanticClonePairs'
+
     # path = 'G:/pythontestfolder'
     # path = filepath
     # clone_files = os.listdir(folderpath)
@@ -134,7 +133,7 @@ def getm2linescountfromfile(folderpath, filename):
 def myfunc(filepath, m1lines):
 
     device = torch.device("cpu")
-    # path = 'D:/SMU/OneDrive - Singapore Management University/Gen. Work Artifacts/Xplain_CodeBERT_SemClone/test/MutatedSemanticClonePairs'
+
     # path = 'G:/pythontestfolder'
     path = filepath
     clone_files = os.listdir(path)
@@ -176,7 +175,7 @@ def myfunc(filepath, m1lines):
 
     # model = Model(model,config,tokenizer)
 
-    # model_path = 'D:/SMU/OneDrive - Singapore Management University/Gen. Work Artifacts/Xplain_CodeBERT_SemClone/test/model/mymodel.bin'
+
     # model.load_state_dict(torch.load(model_path, map_location=lambda storage, loc: storage), strict=False)
     # model.to(device)
 
@@ -226,7 +225,7 @@ def myfunc(filepath, m1lines):
 def getm2InputIDS(folderpath, file_name, m2lines):
 
     device = torch.device("cpu")
-    # path = 'D:/SMU/OneDrive - Singapore Management University/Gen. Work Artifacts/Xplain_CodeBERT_SemClone/test/MutatedSemanticClonePairs'
+
     # path = 'G:/pythontestfolder'
     # path = filepath
     # clone_files = os.listdir(path)
@@ -268,7 +267,6 @@ def getm2InputIDS(folderpath, file_name, m2lines):
 
     # model = Model(model,config,tokenizer)
 
-    # model_path = 'D:/SMU/OneDrive - Singapore Management University/Gen. Work Artifacts/Xplain_CodeBERT_SemClone/test/model/mymodel.bin'
     # model.load_state_dict(torch.load(model_path, map_location=lambda storage, loc: storage), strict=False)
     # model.to(device)
 
@@ -321,7 +319,6 @@ def getm2InputIDS(folderpath, file_name, m2lines):
 def getm1InputIDs(folderpath, file_name, m1lines):
 
     device = torch.device("cpu")
-    # path = 'D:/SMU/OneDrive - Singapore Management University/Gen. Work Artifacts/Xplain_CodeBERT_SemClone/test/MutatedSemanticClonePairs'
     # path = 'G:/pythontestfolder'
     # path = filepath
     # clone_files = os.listdir(path)
@@ -361,7 +358,7 @@ def getm1InputIDs(folderpath, file_name, m1lines):
 
     # model = Model(model,config,tokenizer)
 
-    # model_path = 'D:/SMU/OneDrive - Singapore Management University/Gen. Work Artifacts/Xplain_CodeBERT_SemClone/test/model/mymodel.bin'
+
     # model.load_state_dict(torch.load(model_path, map_location=lambda storage, loc: storage), strict=False)
     # model.to(device)
 
@@ -412,7 +409,6 @@ def getm1InputIDs(folderpath, file_name, m1lines):
 def getInputIDS(filepath):
 
     device = torch.device("cpu")
-    # path = 'D:/SMU/OneDrive - Singapore Management University/Gen. Work Artifacts/Xplain_CodeBERT_SemClone/test/MutatedSemanticClonePairs'
     # path = 'G:/pythontestfolder'
     path = filepath
     clone_files = os.listdir(path)
@@ -453,7 +449,6 @@ def getInputIDS(filepath):
 
     # model = Model(model,config,tokenizer)
 
-    # model_path = 'D:/SMU/OneDrive - Singapore Management University/Gen. Work Artifacts/Xplain_CodeBERT_SemClone/test/model/mymodel.bin'
     # model.load_state_dict(torch.load(model_path, map_location=lambda storage, loc: storage), strict=False)
     # model.to(device)
 
@@ -492,7 +487,6 @@ def getInputIDS(filepath):
 def getInputIDSFromFile(path, filename):
 
     device = torch.device("cpu")
-    # path = 'D:/SMU/OneDrive - Singapore Management University/Gen. Work Artifacts/Xplain_CodeBERT_SemClone/test/MutatedSemanticClonePairs'
     # path = 'G:/pythontestfolder'
     # path = filepath
     # clone_files = os.listdir(path)
@@ -531,7 +525,7 @@ def getInputIDSFromFile(path, filename):
 
     # model = Model(model,config,tokenizer)
 
-    # model_path = 'D:/SMU/OneDrive - Singapore Management University/Gen. Work Artifacts/Xplain_CodeBERT_SemClone/test/model/mymodel.bin'
+
     # model.load_state_dict(torch.load(model_path, map_location=lambda storage, loc: storage), strict=False)
     # model.to(device)
 

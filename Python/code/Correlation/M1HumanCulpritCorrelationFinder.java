@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 public class M1HumanCulpritCorrelationFinder {
 
     static String PYTHON_VERSION = "python";
-    static String pythonCodeFilePath = "Python/code/Correlation/Filtered Python Codes/correlation.py";
+    static String pythonCodeFilePath = "Filtered Python Codes/correlation.py";
 //    static ArrayList<String> safelistClones = new ArrayList<~>(Arrays.asList("Clone105",
 //            "Clone127",
 //            "Clone13",
@@ -81,10 +81,8 @@ public class M1HumanCulpritCorrelationFinder {
         ArrayList<PointBiserialResult> corrResultsList = new ArrayList<>();
         HashMap<String,String> m1IntuitionMap = new LinkedHashMap<>();
         HashMap<String,String> m1WheatMap = new HashMap<>();
-        //String humanintuitionfilename = "D:\\SMU\\OneDrive - Singapore Management University\\Gen. Work Artifacts\\SHAPWheatAnalysis\\humanintuition.csv";
-        //String wheatfilename = "D:\\SMU\\OneDrive - Singapore Management University\\Gen. Work Artifacts\\Xplain_CodeBERT_SemClone\\IsolatedParser\\WheatStmtNumsm1permuteBinary.csv";
-        String humanintuitionfilename = "Python/code/Correlation/humanIntuition.csv";
-        String wheatfilename = "Python/code/Correlation/formatted_culprit_m1.csv";
+        String humanintuitionfilename = "humanIntuition.csv";
+        String wheatfilename = "formatted_culprit_m1.csv";
 
         Path filePath = Paths.get(humanintuitionfilename);
         List<String> lines = Files.readAllLines(filePath);

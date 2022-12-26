@@ -3,7 +3,7 @@
 This folder contains all codes needed to run our experiments on Python clone pairs, data we did the experiments on and results we got from the experiments running on Python clone pairs. 
 ## Wheat&Culprit Detection
 The code for wheat&culprit detection are in folder [code/Wheat&Culprit](code%2FWheat%26Culprit). The dataset we ran the experiments on are [data/Filtered Python Codes](data%2FFiltered%20Python%20Codes). The results of the wheat&culprit detection are in [result/wheat&culprit](results%2Fwheat%26culprit). <br/>
-
+Download mymodel.bin and put it in the folder [code/Wheat&Culprit](code%2FWheat%26Culprit). <br/>
 To run the experiment, you need to put the [data/Filtered Python Codes](data%2FFiltered%20Python%20Codes) under [code/Wheat&Culprit](code%2FWheat%26Culprit) folder and run the following command:
 ```
 cd code/Wheat&Culprit
@@ -23,7 +23,7 @@ After running above command, prediction_result.csv will be generated. prediction
 
 ## SHAP values
 The code of finding shap values for each statement are in [code/shap](code%2Fshap). The dataset we ran the experiments on are [data/Sampled Python Codes](data%2FSampled%20Python%20Codes). The results of shap values are in [result/shap](results%2Fshap). <br/> 
-
+Download mymodel.bin and put it in the folder [code/shap](code%2Fshap). <br/>
 To run the experiment, you need to put the [data/Sampled Python Codes](data%2FSampled%20Python%20Codes) under [code/shap](code%2Fshap) folder and run the following command:
 ```
 cd code/shap
@@ -47,9 +47,25 @@ Then 4 formatted wheat&culprit detection results will be generated. After that, 
 
 ```
 cd CorrelationFinder
-
+java M1HumanCulpritCorrelationFinder
+java M1HumanWheatCorrelationFinder
+java M1HumanShapCorrelationFinder
+java M2HumanCulpritCorrelationFinder
+java M2HumanWheatCorrelationFinder
+java M2HumanShapCorrelationFinder
 
 ```
-Then just pasted each result in [HumanAnalysis.xlsx](results%2FCorrelation%26Intersection%2FHumanAnalysis.xlsx) and do analysis
+Then just pasted results in [HumanAnalysis.xlsx](results%2FCorrelation%26Intersection%2FHumanAnalysis.xlsx) and do analysis
 
 ## Intersection
+
+To find the intersection between human intuition and wheat&culprit or between human intuition and shap value. To facilitate 
+the findings of intersections, we need to put the shap value and wheat&culprit results that we generated before and the humanIntuition.csv in the [code/Intersection](code%2FIntersection) and
+run the following commands:
+
+```
+python result_human_formatter.py
+java ShapRankm1
+java ShapRankm2
+```
+Then copy the results and paste in a excel sheet to find the intersections. The results can be find in [results/FCorrelation&Intersection/HumanAnalysis.xlsx](results%2FCorrelation%26Intersection%2FHumanAnalysis.xlsx)

@@ -10,7 +10,7 @@ import java.util.List;
 public class M2HumanShapCorrelationFinder {
 
     static String PYTHON_VERSION = "python";
-    static String pythonCodeFilePath = "Python/code/Correlation/Sampled Python Codes/correlation.py";
+    static String pythonCodeFilePath = "Filtered Python Codes/correlation.py";
 
 //    static ArrayList<String> safelistClones = new ArrayList<~>(Arrays.asList("Clone105",
 //            "Clone127",
@@ -84,8 +84,8 @@ public class M2HumanShapCorrelationFinder {
         ArrayList<PointBiserialResult> corrResultsList = new ArrayList<>();
         LinkedHashMap<String,String> m2IntuitionMap = new LinkedHashMap<>();
         HashMap<String,String> m2ShapMap = new HashMap<>();
-        String humanintuitionfilename = "Python/code/Correlation/humanIntuition.csv";
-        String shapm2filename = "Python/code/Correlation/sampledm2permuteshaplog.csv";
+        String humanintuitionfilename = "humanIntuition.csv";
+        String shapm2filename = "sampledm2permuteshaplog.csv";
         Path filePath = Paths.get(humanintuitionfilename);
         List<String> lines = Files.readAllLines(filePath);
 

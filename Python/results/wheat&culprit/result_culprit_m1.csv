@@ -1,4 +1,3 @@
-filename,Has culprit?Ê,num of lines of culprit,num of mutations to find culprit,line numbers of culprit,culprits,,,,,
 Clone921.py,Has culprit,1,3,2_,"	for line in iter(self.readline, '') :
 ",,,,,
 Clone746.py,No culprit,0,127,,,,,,,

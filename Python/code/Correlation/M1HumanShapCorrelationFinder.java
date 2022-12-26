@@ -10,7 +10,7 @@ import java.util.List;
 public class M1HumanShapCorrelationFinder {
 
     static String PYTHON_VERSION = "python";
-    static String pythonCodeFilePath = "Python/code/Correlation/Sampled Python Codes/correlation.py";
+    static String pythonCodeFilePath = "Filtered Python Codes/correlation.py";
 
 //    static ArrayList<String> safelistClones = new ArrayList<~>(Arrays.asList("Clone105",
 //            "Clone127",
@@ -84,8 +84,8 @@ public class M1HumanShapCorrelationFinder {
         ArrayList<PointBiserialResult> corrResultsList = new ArrayList<>();
         LinkedHashMap<String,String> m1IntuitionMap = new LinkedHashMap<>();
         HashMap<String,String> m1ShapMap = new HashMap<>();
-        String humanintuitionfilename = "Python/code/Correlation/humanIntuition.csv";
-        String shapm1filename = "Python/code/Correlation/sampledclonefileshaplogm1.csv";
+        String humanintuitionfilename = "humanIntuition.csv";
+        String shapm1filename = "sampledclonefileshaplogm1.csv";
         Path filePath = Paths.get(humanintuitionfilename);
         List<String> lines = Files.readAllLines(filePath);
 
@@ -249,7 +249,7 @@ public class M1HumanShapCorrelationFinder {
         List<String> results = readProcessOutput(process.getInputStream());
         if(results.size()==1) {
             for (String s : results) {
-               // System.out.println(s);
+                //System.out.println(s);
                 Float correlation = 0.0f;
                 Float pvalue = 0.0f;
                 correlation = Float.parseFloat(s.substring(s.indexOf('=') + 1, s.indexOf(',')));

@@ -10,7 +10,7 @@ import java.util.List;
 public class M2HumanWheatCorrelationFinder {
 
     static String PYTHON_VERSION = "python";
-    static String pythonCodeFilePath = "Python/code/Correlation/Filtered Python Codes/correlation.py";
+    static String pythonCodeFilePath = "Filtered Python Codes/correlation.py";
 
 //    static ArrayList<String> safelistClones = new ArrayList<~>(Arrays.asList("Clone105",
 //            "Clone127",
@@ -84,8 +84,8 @@ public class M2HumanWheatCorrelationFinder {
         ArrayList<PointBiserialResult> corrResultsList = new ArrayList<>();
         HashMap<String,String> m2IntuitionMap = new LinkedHashMap<>();
         HashMap<String,String> m2WheatMap = new HashMap<>();
-        String humanintuitionfilename = "Python/code/Correlation/humanIntuition.csv";
-        String wheatfilename = "Python/code/Correlation/formatted_wheat_m2.csv";
+        String humanintuitionfilename = "humanIntuition.csv";
+        String wheatfilename = "formatted_wheat_m2.csv";
         Path filePath = Paths.get(humanintuitionfilename);
         List<String> lines = Files.readAllLines(filePath);
 
