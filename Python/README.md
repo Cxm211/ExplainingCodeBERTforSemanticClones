@@ -1,6 +1,14 @@
 # Experiments on Python clone pairs
 ## Introduction
-This folder contains all codes needed to run our experiments on Python clone pairs, data we did the experiments on and results we got from the experiments running on Python clone pairs. 
+This folder contains all codes needed to run our experiments on Python clone pairs, data we did the experiments on and results we got from the experiments running on Python clone pairs. In data folder, the Filtered Python Codes contains all clone pairs filtered with both methods less than 10 lines and Sampled Python Codes contains 100 clone pairs that we randomly sampled from the filtered python codes. The humanIntuition.csv is human labeled. The first column is filenamesn second column is the line number and the third column are human label. The label can be -1 for non-core statements, 0 for unsure and 1 for core statements. <br/>
+The codes and results will be introduced in the following sections. 
+## Random Sampler
+To sample the clone pairs from our dataset, we need to copy the [data/Filtered Python Codes](data%2FFiltered%20Python%20Codes) and paste it in [code/Sample](code%2FSample) folder and run the following commands:
+```
+cd code/Sample
+javac PythonFilesRandomSampler.java 
+java PythonFilesRandomSampler
+```
 ## Wheat&Culprit Detection
 The code for wheat&culprit detection are in folder [code/Wheat&Culprit](code%2FWheat%26Culprit). The dataset we ran the experiments on are [data/Filtered Python Codes](data%2FFiltered%20Python%20Codes). The results of the wheat&culprit detection are in [result/wheat&culprit](results%2Fwheat%26culprit). <br/>
 Download mymodel.bin and put it in the folder [code/Wheat&Culprit](code%2FWheat%26Culprit). <br/>
