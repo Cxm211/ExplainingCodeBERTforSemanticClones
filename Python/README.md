@@ -17,11 +17,6 @@ To run the experiment, you need to put the [data/Filtered Python Codes](data%2FF
 cd code/Wheat&Culprit
 python Mutationcodebertm1.py
 ```
-After running above commands, result_culprit_m1.csv and result_wheat_m1.csv , which contain the resuls of wheats or culprits detection of methods 1 of all clone pairs, will be generated in the same folder. 
-
-```
-python Mutationcodebertm2.py
-```
 After running above command, result_culprit_m2.csv and result_wheat_m2.csv, ,which contain the resuls of wheats or culprits detection of methods 2 of all clone pairs, will be generated in the same folder. 
 
 ```
